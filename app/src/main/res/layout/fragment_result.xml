@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="76dp"
+        android:src="@drawable/ic_qqq" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Назад" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Вперед" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="386dp"
+        android:layout_above="@+id/imageView8"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:text="Оптика раздел физики, в котором изучаются световые явления. Свет это электромагнитные волны, длина волны которых в вакууме лежит в диапазоне приблизительно от 1 мм до 10-7 м. Свет с длинами волн в интервале от 380 нм до 760 нм, который воспринимается глазом человека, называется видимым излучением (свет в узком смысле слова).Оптика делится на три подраздела: волновую оптику, квантовую и геометрическую. Волновая оптика базируется на представлении о свете, как электромагнитной волне, квантовая оптика — на представлении о свете, как потоке фотонов. В рамках геометрической оптики природа света не рассматривается, используются геометрические методы решения оптических задач.
+
+
+
+
+
+
+
+        Свет — электромагнитная волна в диапазоне длин волн в вакууме от 1 мм до 100 нм. В вакууме распространяется со ско ростью с = 3·10⁸ м/с. На человеческий глаз воздействует электрическая составляющая электромагнитной волны. Поэтому световую волну описывают вектором E и называют его световым вектором."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="128dp"
+        android:text="Оптика"
+        android:textSize="24sp" />
+
+</RelativeLayout>

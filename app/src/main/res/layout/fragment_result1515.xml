@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result15Fragment15">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="71dp"
+        android:text="Примеры дифракции света"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="146dp"
+        android:layout_below="@+id/textView46"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="Компакт-диск   На компакт-дисках явления дифракция является более восприимчивым. Обложка компакт-диска блестит и имеет множество отверстий. Когда свет падает на поверхность компакт-диска, часть его преломляется, а остальная часть отражается. Из-за этого на поверхности компакт-диска появляется радужный узор. " />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="346dp"
+        android:layout_height="191dp"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_primer3" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="379dp"
+        android:layout_height="195dp"
+        android:layout_below="@+id/imageView33"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="20dp"
+        android:text="Вода, вытекающая из небольшой щели Дифракция возникает, когда вода проходит через отверстие и рассеивается. Степень дифракции увеличивается с увеличением длины волны. Если ширина промежутка примерно эквивалентна длине волны, происходит наибольшая дифракция.   Всякий раз, когда движущаяся вода озера соприкасается с крошечной щелью, она, вероятно, прерывает свое обычное движение. Волна воды изгибается по обеим сторонам прорези. Такое искривление водной волны — еще один пример дифракции. " />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result5Fragment5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="214dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toStartOf="@+id/imageView13"
+        android:text="Призма оптическая(рис.3) — устройство, позволяющее разложить свет в спектр (см. Дисперсия света) и изменить направление световых лучей; является одной из основных частей спектрографов и спектроскопов." />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_yyy" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_aaaa" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="218dp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="173dp"
+        android:text="Линза (оптическая линза)(рис.4) — прозрачное тело, ограниченное двумя поверхностями, как правило, сферическими (сферическая линза). При прохождении через линзу лучи света преломляются и формируют изображение источника света (предмета). Характеристиками линзы являются фокусное расстояние F и оптическая сила D = 1/F." />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:text="рис.3" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView18"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:text="рис.4" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="237dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="Оптическая ось линзы — ось, вдоль которой лучи света идут не преломляясь. Главная оптическая ось — прямая линия, проходящая через центры C1 и C2 сферических поверхностей, которые ограничивают тело линзы. Главная оптическая ось C1C2 является осью симметрии сферической линзы. Побочная оптическая ось — любая прямая линия MN, проведенная через оптический центр линзы О, которая не совпадает с главной оптической осью С1С2.(рис.5)Оптический центр линзы — точка, расположенная на главной оптической оси линзы в центре линзы." />
+
+</RelativeLayout>

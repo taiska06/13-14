@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result13Fragment13">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="373dp"
+        android:layout_height="262dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="20dp"
+        android:text="—  интерференционная картина, которая имеет вид концентрических колец и возникает при освещении светом установки. Установка состоит из плоско-выпуклой линзы и плоско-параллельной пластины. В результате отражений от верхней поверхности пластины и выпуклой поверхности линзы исходная волна расщепляется на две когерентных волны 1 и 2. Когерентные волны накладываются друг на друга, в результате чего вблизи точки касания линзы и пластины образуется интерференционная картина в отражённом свете. Радиус колец Ньютона разный для света разного цвета. Так, верхняя часть a соответствует освещению установки зелёным светом, а нижняя часть — красным." />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="155dp"
+        android:layout_height="263dp"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/imageView29"
+        android:src="@drawable/ic_lin" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="209dp"
+        android:layout_height="269dp"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_intepppp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="218dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="148dp"
+        android:text="Кольца Ньютона "
+        android:textSize="20sp" />
+
+</RelativeLayout>

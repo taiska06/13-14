@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result7Fragment7">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="Анализатор — устройство, которое позволяет выяснить, поляризован ли свет и какова плоскость колебаний светового вектора Е (см. Поляризация света)." />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="231dp"
+        android:layout_height="241dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/imageView22"
+        android:text="Лупа — собирающая линза с малым фокусным расстоянием (F = 1 / 10 см). Рассматриваемый предмет обычно помещают между передним фокусом (вблизи фокуса) и лупой. Полученное изображение является мнимым, увеличенным, прямым, бесконечно удаленным. Увеличение лупы рассчитывается по формуле Г = d0 / F, d0 = 25см (расстояние наилучшего зрения)." />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="133dp"
+        android:layout_height="136dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:src="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="373dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="Фотоаппарат устройство, позволяющее получать и фиксировать статическое изображение предметов. Основная часть фотоаппарата — линза или система линз, которая позволяет получить действительное (как правило, уменьшенное) изображение предмета. Фиксация изображения в пленочном фотоаппарате происходит на фотопленке, а в цифровом фотоаппарате изображение воспринимается электронной матрицей, после чего сигнал подвергается оцифровке и сохраняется на каком-либо носителе (флэш-память и др.)." />
+
+</RelativeLayout>

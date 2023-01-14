@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="8dp"
+    tools:context=".Blank14Fragment14">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="157dp"
+        android:text="Дифракция света"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="— физическое явление огибания световыми волнами препятствий (отклонение от законов геометрической оптики). По типу препятствий различают дифракцию на щели, на отверстии, на малом круглом препятствии и др. На экране, помещенном за препятствием, можно наблюдать чередование освещенных и темных участков — дифракционную картину. Для расчета дифракционной картины, т. е. положения этих участков (полос), применяют принцип Гюйгенса-Френеля." />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="189dp"
+        android:layout_height="152dp"
+        android:layout_above="@+id/button41"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="17dp"
+        android:layout_toStartOf="@+id/textView45"
+        android:src="@drawable/ic_9" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_above="@+id/button42"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="25dp"
+        android:text="Дифракция на дифракционной решетке - см. Дифракционная решетка." />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="194dp"
+        android:layout_height="178dp"
+        android:layout_above="@+id/imageView30"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="21dp"
+        android:src="@drawable/ic_svet" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="195dp"
+        android:layout_height="182dp"
+        android:layout_above="@+id/textView45"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/ic_primer2" />
+</RelativeLayout>

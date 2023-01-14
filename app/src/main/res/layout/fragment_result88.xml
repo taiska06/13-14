@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result8Fragment8">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="Глаз — орган человека и животных, обладающий способностью воспринимать свет и обеспечивающий функцию зрения. Глаз человека представляет собой сложную оптическую систему. Свет, падающий в глаз, преломляется в роговице, хрусталике и стекловидном теле, в результате чего на сетчатке образуется действительное уменьшенное перевернутое изображение предмета (ход лучей аналогичен ходу лучей в фотоаппарате)." />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_above="@+id/textView32"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/ic_6" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="339dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="89dp"
+        android:text="Очки — прибор, предназначенный для улучшения зрения. Например, для компенсации таких недостатков зрения, как близорукость и дальнозоркость." />
+
+
+</RelativeLayout>

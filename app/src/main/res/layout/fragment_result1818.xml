@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result18Fragment18">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="приступить к заданию" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="167dp"
+        android:text="Дисперсия света"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_below="@+id/imageView41"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="— физическое явление, заключающееся
+в том, что световые пучки разного цвета (т. е. имеющие разную частоту ν и длину волны λ) при переходе через границу раздели двух сред преломляются по-разному. В результате дисперсии белый свет, пройдя через стеклянную призму, разлагается в спектр. Дисперсия света объясняется тем, что скорость распространения света в среде и, следовательно, абсолютный показатель преломления среды, зависит от длины волны λ (частоты ν) света: n = c/v, где v = v(λ)." />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="175dp"
+        android:layout_height="126dp"
+        android:layout_below="@+id/textView59"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_yyy" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="115dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView60"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="125dp"
+        android:text="Примеры"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="222dp"
+        android:layout_height="195dp"
+        android:layout_below="@+id/textView61"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="9dp"
+        android:src="@drawable/ic_y" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="152dp"
+        android:layout_height="174dp"
+        android:layout_above="@+id/button49"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="17dp"
+        android:layout_toStartOf="@+id/imageView42"
+        android:text="Объектом, преломляющим лучи, является атмосфера Земли. Ввиду того, что воздух состоит из определенной смеси газов, эффект отличается и может быть разным." />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="171dp"
+        android:layout_height="157dp"
+        android:layout_below="@+id/textView59"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_rad" />
+
+</RelativeLayout>

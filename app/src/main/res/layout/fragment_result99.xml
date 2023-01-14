@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result9Fragment9">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Назад" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Вперед" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="Близорукость — дефект глаза, при котором фокус оптической системы глаза находится перед сетчаткой глаза. Глаз в этом случае обладает чрезмерной оптической силой. Близорукость может быть скомпенсирована очка-ми с рассеивающими линзами Лрас." />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="382dp"
+        android:layout_height="317dp"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_hhhhhhhhhh" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="349dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/imageView23"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="101dp"
+        android:text="Дальнозоркость — дефект глаза, при котором фокус F оптической системы глаза находится за сетчаткой глаза, а на сетчатке формируется размытое изображение предмета (т. е. глаз обладает недостаточной оптической силой). Дальнозоркость может быть скомпенсирована очками с собирающими линзами Лсоб. " />
+
+</RelativeLayout>

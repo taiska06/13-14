@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grav"
+    app:startDestination="@id/rootFragment">
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.a13_14.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_rootFragment"
+            app:destination="@id/rootFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_result2Fragment"
+            app:destination="@id/result2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rootFragment"
+        android:name="com.example.a13_14.RootFragment"
+        android:label="fragment_root"
+        tools:layout="@layout/fragment_root" >
+        <action
+            android:id="@+id/action_rootFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_rootFragment_to_test1Fragment"
+            app:destination="@id/test1Fragment" />
+        <action
+            android:id="@+id/action_rootFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_rootFragment_to_result10Fragment10"
+            app:destination="@id/result10Fragment10" />
+    </fragment>
+    <fragment
+        android:id="@+id/result2Fragment"
+        android:name="com.example.a13_14.Result2Fragment"
+        android:label="fragment_result2"
+        tools:layout="@layout/fragment_result2" >
+        <action
+            android:id="@+id/action_result2Fragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_result2Fragment_to_result3Fragment"
+            app:destination="@id/result3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/test1Fragment"
+        android:name="com.example.a13_14.test1Fragment"
+        android:label="fragment_test1"
+        tools:layout="@layout/fragment_test1" >
+        <action
+            android:id="@+id/action_test1Fragment_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blank2Fragment2"
+        android:name="com.example.a13_14.Blank2Fragment2"
+        android:label="fragment_blank22"
+        tools:layout="@layout/fragment_blank22" >
+        <action
+            android:id="@+id/action_blank2Fragment2_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_blank2Fragment2_to_blank3Fragment3"
+            app:destination="@id/blank3Fragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.a13_14.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_blank2Fragment2"
+            app:destination="@id/blank2Fragment2" />
+        <action
+            android:id="@+id/action_blankFragment_to_rootFragment"
+            app:destination="@id/rootFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/result3Fragment"
+        android:name="com.example.a13_14.result3Fragment"
+        android:label="fragment_result3"
+        tools:layout="@layout/fragment_result3" >
+        <action
+            android:id="@+id/action_result3Fragment_to_result2Fragment"
+            app:destination="@id/result2Fragment" />
+        <action
+            android:id="@+id/action_result3Fragment_to_result4Fragment4"
+            app:destination="@id/result4Fragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blank3Fragment3"
+        android:name="com.example.a13_14.Blank3Fragment3"
+        android:label="fragment_blank33"
+        tools:layout="@layout/fragment_blank33" >
+        <action
+            android:id="@+id/action_blank3Fragment3_to_blank2Fragment2"
+            app:destination="@id/blank2Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.a13_14.BlankFragment2"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" >
+        <action
+            android:id="@+id/action_blankFragment2_to_test1Fragment"
+            app:destination="@id/test1Fragment" />
+        <action
+            android:id="@+id/action_blankFragment2_to_rootFragment2"
+            app:destination="@id/rootFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/result4Fragment4"
+        android:name="com.example.a13_14.Result4Fragment4"
+        android:label="fragment_result4"
+        tools:layout="@layout/fragment_result4" >
+        <action
+            android:id="@+id/action_result4Fragment4_to_result3Fragment"
+            app:destination="@id/result3Fragment" />
+        <action
+            android:id="@+id/action_result4Fragment4_to_result5Fragment5"
+            app:destination="@id/result5Fragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/result5Fragment5"
+        android:name="com.example.a13_14.Result5Fragment5"
+        android:label="fragment_result55"
+        tools:layout="@layout/fragment_result55" >
+        <action
+            android:id="@+id/action_result5Fragment5_to_result4Fragment4"
+            app:destination="@id/result4Fragment4" />
+        <action
+            android:id="@+id/action_result5Fragment5_to_result6Fragment6"
+            app:destination="@id/result6Fragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/result6Fragment6"
+        android:name="com.example.a13_14.result6Fragment6"
+        android:label="fragment_result66"
+        tools:layout="@layout/fragment_result66" >
+        <action
+            android:id="@+id/action_result6Fragment6_to_result5Fragment5"
+            app:destination="@id/result5Fragment5" />
+        <action
+            android:id="@+id/action_result6Fragment6_to_result7Fragment7"
+            app:destination="@id/result7Fragment7" />
+    </fragment>
+    <fragment
+        android:id="@+id/result7Fragment7"
+        android:name="com.example.a13_14.Result7Fragment7"
+        android:label="fragment_result77"
+        tools:layout="@layout/fragment_result77" >
+        <action
+            android:id="@+id/action_result7Fragment7_to_result6Fragment6"
+            app:destination="@id/result6Fragment6" />
+        <action
+            android:id="@+id/action_result7Fragment7_to_result8Fragment8"
+            app:destination="@id/result8Fragment8" />
+    </fragment>
+    <fragment
+        android:id="@+id/result8Fragment8"
+        android:name="com.example.a13_14.Result8Fragment8"
+        android:label="fragment_result88"
+        tools:layout="@layout/fragment_result88" >
+        <action
+            android:id="@+id/action_result8Fragment8_to_result7Fragment7"
+            app:destination="@id/result7Fragment7" />
+        <action
+            android:id="@+id/action_result8Fragment8_to_result9Fragment9"
+            app:destination="@id/result9Fragment9" />
+    </fragment>
+    <fragment
+        android:id="@+id/result9Fragment9"
+        android:name="com.example.a13_14.Result9Fragment9"
+        android:label="fragment_result99"
+        tools:layout="@layout/fragment_result99" >
+        <action
+            android:id="@+id/action_result9Fragment9_to_result8Fragment8"
+            app:destination="@id/result8Fragment8" />
+        <action
+            android:id="@+id/action_result9Fragment9_to_result10Fragment10"
+            app:destination="@id/result10Fragment10" />
+    </fragment>
+    <fragment
+        android:id="@+id/result10Fragment10"
+        android:name="com.example.a13_14.Result10Fragment10"
+        android:label="fragment_result1010"
+        tools:layout="@layout/fragment_result1010" >
+        <action
+            android:id="@+id/action_result10Fragment10_to_result9Fragment9"
+            app:destination="@id/result9Fragment9" />
+        <action
+            android:id="@+id/action_result10Fragment10_to_result11Fragment11"
+            app:destination="@id/result11Fragment11" />
+    </fragment>
+    <fragment
+        android:id="@+id/result11Fragment11"
+        android:name="com.example.a13_14.Result11Fragment11"
+        android:label="fragment_result1111"
+        tools:layout="@layout/fragment_result1111" >
+        <action
+            android:id="@+id/action_result11Fragment11_to_result10Fragment10"
+            app:destination="@id/result10Fragment10" />
+        <action
+            android:id="@+id/action_result11Fragment11_to_result12Fragment12"
+            app:destination="@id/result12Fragment12" />
+    </fragment>
+    <fragment
+        android:id="@+id/result12Fragment12"
+        android:name="com.example.a13_14.Result12Fragment12"
+        android:label="fragment_result1212"
+        tools:layout="@layout/fragment_result1212" >
+        <action
+            android:id="@+id/action_result12Fragment12_to_result11Fragment11"
+            app:destination="@id/result11Fragment11" />
+        <action
+            android:id="@+id/action_result12Fragment12_to_result13Fragment13"
+            app:destination="@id/result13Fragment13" />
+    </fragment>
+    <fragment
+        android:id="@+id/result13Fragment13"
+        android:name="com.example.a13_14.Result13Fragment13"
+        android:label="fragment_result1313"
+        tools:layout="@layout/fragment_result1313" >
+        <action
+            android:id="@+id/action_result13Fragment13_to_result12Fragment12"
+            app:destination="@id/result12Fragment12" />
+        <action
+            android:id="@+id/action_result13Fragment13_to_blank14Fragment14"
+            app:destination="@id/blank14Fragment14" />
+    </fragment>
+    <fragment
+        android:id="@+id/blank14Fragment14"
+        android:name="com.example.a13_14.Blank14Fragment14"
+        android:label="fragment_blank1414"
+        tools:layout="@layout/fragment_blank1414" >
+        <action
+            android:id="@+id/action_blank14Fragment14_to_result13Fragment13"
+            app:destination="@id/result13Fragment13" />
+        <action
+            android:id="@+id/action_blank14Fragment14_to_result15Fragment15"
+            app:destination="@id/result15Fragment15" />
+    </fragment>
+    <fragment
+        android:id="@+id/result15Fragment15"
+        android:name="com.example.a13_14.Result15Fragment15"
+        android:label="fragment_result1515"
+        tools:layout="@layout/fragment_result1515" >
+        <action
+            android:id="@+id/action_result15Fragment15_to_blank14Fragment14"
+            app:destination="@id/blank14Fragment14" />
+        <action
+            android:id="@+id/action_result15Fragment15_to_result16Fragment16"
+            app:destination="@id/result16Fragment16" />
+    </fragment>
+    <fragment
+        android:id="@+id/result16Fragment16"
+        android:name="com.example.a13_14.Result16Fragment16"
+        android:label="fragment_result1616"
+        tools:layout="@layout/fragment_result1616" >
+        <action
+            android:id="@+id/action_result16Fragment16_to_result15Fragment15"
+            app:destination="@id/result15Fragment15" />
+        <action
+            android:id="@+id/action_result16Fragment16_to_result17Fragment17"
+            app:destination="@id/result17Fragment17" />
+    </fragment>
+    <fragment
+        android:id="@+id/result17Fragment17"
+        android:name="com.example.a13_14.Result17Fragment17"
+        android:label="fragment_result1717"
+        tools:layout="@layout/fragment_result1717" >
+        <action
+            android:id="@+id/action_result17Fragment17_to_result16Fragment16"
+            app:destination="@id/result16Fragment16" />
+        <action
+            android:id="@+id/action_result17Fragment17_to_result18Fragment18"
+            app:destination="@id/result18Fragment18" />
+    </fragment>
+    <fragment
+        android:id="@+id/result18Fragment18"
+        android:name="com.example.a13_14.Result18Fragment18"
+        android:label="fragment_result1818"
+        tools:layout="@layout/fragment_result1818" >
+        <action
+            android:id="@+id/action_result18Fragment18_to_test1Fragment"
+            app:destination="@id/test1Fragment" />
+        <action
+            android:id="@+id/action_result18Fragment18_to_result17Fragment172"
+            app:destination="@id/result17Fragment17" />
+    </fragment>
+</navigation>

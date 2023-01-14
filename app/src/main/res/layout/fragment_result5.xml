@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result5Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="20dp"
+        android:text="Вперед" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="20dp"
+        android:text="Назад" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="241dp"
+        android:layout_height="309dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Призма оптическая(рис.4) — устройство, позволяющее разложить свет в спектр (см. Дисперсия света) и изменить направление световых лучей; является одной из основных частей спектрографов и спектроскопов. Линза (оптическая линза) — прозрачное тело, ограниченное двумя поверхностями, как правило, сферическими (сферическая линза). При прохождении через линзу лучи света преломляются и формируют изображение источника света (предмета). Характеристиками линзы являются фокусное расстояние F и оптическая сила D = 1/F." />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:text="рис.4" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="132dp"
+        android:layout_height="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_yyy" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="275dp"
+        android:text="Оптическая ось линзы — ось, вдоль которой лучи света идут не преломляясь. Главная оптическая ось — прямая линия, проходящая через центры O1 и O2 сферических поверхностей, которые ограничивают тело линзы. Главная оптическая ось O1O2 является осью симметрии сферической линзы. Побочная оптическая ось — любая прямая линия MN, проведенная через оптический центр линзы О, которая не совпадает с главной оптической осью O1O2." />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="351dp"
+        android:layout_height="183dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="77dp"
+        android:src="@drawable/ic_mmmm" />
+
+
+</RelativeLayout>
